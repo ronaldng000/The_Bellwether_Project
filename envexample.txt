@@ -1,0 +1,11 @@
+# Gradio Data Analysis Platform Configuration
+# Copy this file to .env and add your API keys
+
+# Gemini AI API Key (required for AI-powered data cleaning)
+# Get your key from: https://aistudio.google.com/app/apikey
+# Supports Gemini 2.5 Pro, 2.5 Flash, and 2.5 Flash Lite models
+GEMINI_API_KEY=your-gemini-api-key-here
+
+# Optional: Other configuration
+DEBUG=true
+MAX_FILE_SIZE_MB=100
